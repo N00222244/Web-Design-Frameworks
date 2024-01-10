@@ -1,0 +1,85 @@
+@import "../node_modules/bootstrap/scss/functions";
+
+
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap-utilities.scss";
+
+
+
+
+//Fonts 
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+$font-family-base: "Noto+Sans",serif;
+
+
+
+//Colours
+
+$custom-colors:(
+    "mybg": rgb(255,222,161),
+
+);
+
+
+$mycolour1:rgb(255,222,161);
+
+
+
+$theme-colors: map-merge($theme-colors , $custom-colors);
+
+
+
+.my-bg {
+    background-image: url(/imagess/Group\ 69.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.my-img1{
+    width: 451px;
+    height: 450px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 15px 15px 4px gray;
+}
+
+.my-bg2{
+    background-color: rgb(255, 201, 101);
+}
+
+
+
+.my-bg1{
+    background-image: url(/imagess/css-pattern-by-magicpattern\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+}
+
+.my-btn1{
+    color: black;
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    text-align: center;    
+}
+
+.my-a1{
+
+    color: white
+};
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
