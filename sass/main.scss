@@ -2,9 +2,7 @@
 
 
 
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/bootstrap-utilities.scss";
+
 
 
 
@@ -25,11 +23,28 @@ $custom-colors:(
 );
 
 
-$mycolour1:rgb(255,222,161);
 
 
 
-$theme-colors: map-merge($theme-colors , $custom-colors);
+
+
+
+@import "../node_modules/bootstrap/scss/functions";
+
+
+
+$primary: #FFDEA1;
+
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap-utilities.scss";
+
+
+
+
+
+
 
 
 
